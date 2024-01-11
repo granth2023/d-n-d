@@ -16,4 +16,6 @@ const App = () => {
 
   export default App 
 
-  //what is a reservered keyword? return? calss? are built in components syntaxically different, how? lower case? 
+  //what is a reservered keyword? return? calss? are built in components syntaxically different, how? lower case?
+  
+  //do user created components need to be capitalized? 
