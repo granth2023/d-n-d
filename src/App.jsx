@@ -33,3 +33,6 @@ function App() {
 }
 
 export default App
+
+
+//when i open app, think what are my components? can we create one component and reuse? can we define a list once and use it for two different functions? the store and user? 
