@@ -9,22 +9,24 @@ const Shop = () => {
 
     const [inventory, setInventory] = useState(inventoryData)
     const [userInventory, setUserInventory] = useState([])
-
+}
 
     const handleAddItem = () => {
         setInventory([])
     }
-    return ( 
-        <main> 
-            <h1>Shop</h1>
-            <section>
-            <button onClick={handleAddItem}>Click Here</button>
-           <InventoryList title="Shop Inventory" inventory={inventoryData}/>
-           <Inventory List title="User Inventory" inventory={userInventory}/>
-           </section>
+    return (
+        <main>
+          <h1>Shop</h1>
+          <section className="shop-section">
+            <InventoryList
+              title="Shop Inventory"
+              inventory={shopInventory}
+              handleAddItem={handleAddItem}
+            />
+            <InventoryList title="User Inventory" inventory={userInventory} />
+          </section>
         </main>
-    )
-}
+      )
 
 export default Shop
 
