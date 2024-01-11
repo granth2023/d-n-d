@@ -19,3 +19,5 @@ const App = () => {
   //what is a reservered keyword? return? calss? are built in components syntaxically different, how? lower case?
   
   //do user created components need to be capitalized? 
+
+  //what must they include? a div? a react elemnt? 
