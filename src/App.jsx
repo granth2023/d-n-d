@@ -21,3 +21,6 @@ const App = () => {
   //do user created components need to be capitalized? 
 
   //what must they include? a div? a react elemnt? 
+
+  //can we use state to do conditional things? can we do it load things? how do we pass around state? do we use props ? how do we define state? the highest elemnt form taht state? 
+  
