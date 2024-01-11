@@ -7,12 +7,13 @@ import Shop from './pages/Shop/Shop';
 
 const App = () => {
   return (
-    <main class
+    <main className="shop"> 
      <Shop />
+     </main>
   )
 }
 
 
   export default App 
 
-  //what is a reservered keyword? return? calss? 
+  //what is a reservered keyword? return? calss? are built in components syntaxically different, how? lower case? 
