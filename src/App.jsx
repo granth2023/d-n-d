@@ -36,3 +36,6 @@ export default App
 
 
 //when i open app, think what are my components? can we create one component and reuse? can we define a list once and use it for two different functions? the store and user? 
+
+//what makes them the same? the fact they have a list structure and use similar components within functions
+//
