@@ -7,3 +7,5 @@ const Shop = () => {
         </main>
     )
 }
+
+export default Shop
