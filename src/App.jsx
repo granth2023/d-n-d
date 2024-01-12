@@ -1,6 +1,17 @@
 import { useState } from 'react';
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import { BrowserRouter as Router} from 'react-router-dom'
 
 import './App.css'
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <Router>
+      <App></App>
+    </Router>
+  </React.StrictMode>
+)
 
 //components and pages
 import Shop from './pages/Shop/Shop';
@@ -26,3 +37,5 @@ const App = () => {
   
 
   //dev depnedincies you don't need in production. 
+
+  //when a list changes what mounts? 
