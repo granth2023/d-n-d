@@ -24,3 +24,5 @@ const App = () => {
 
   //can we use state to do conditional things? can we do it load things? how do we pass around state? do we use props ? how do we define state? the highest elemnt form taht state? 
   
+
+  //dev depnedincies you don't need in production. 
